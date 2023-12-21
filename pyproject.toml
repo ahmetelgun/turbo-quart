@@ -1,10 +1,11 @@
 [project]
-name = "Turbo-Flask"
-version = "0.8.5.dev0"
+name = "Turbo-Quart"
+version = "0.0.1.dev0"
 authors = [
+    { name = "Ahmet Elgün", email = "ahmetelgn@gmail.com" },
     { name = "Miguel Grinberg", email = "miguel.grinberg@gmail.com" },
 ]
-description = "Use Hotwire Turbo in your Flask application."
+description = "Use Hotwire Turbo in your Quart application."
 classifiers = [
     "Environment :: Web Environment",
     "Intended Audience :: Developers",
@@ -14,8 +15,7 @@ classifiers = [
 ]
 requires-python = ">=3.6"
 dependencies = [
-    "flask >= 2",
-    "flask-sock >= 0.4",
+    "Quart >= 0.19.4",
 ]
 
 [project.readme]
@@ -23,13 +23,8 @@ file = "README.md"
 content-type = "text/markdown"
 
 [project.urls]
-Homepage = "https://github.com/miguelgrinberg/turbo-flask"
-"Bug Tracker" = "https://github.com/miguelgrinberg/turbo-flask/issues"
-
-[project.optional-dependencies]
-docs = [
-    "sphinx",
-]
+Homepage = "https://github.com/ahmetelgun/turbo-quart"
+"Bug Tracker" = "https://github.com/ahmetelgun/turbo-quart/issues"
 
 [tool.setuptools]
 zip-safe = false
