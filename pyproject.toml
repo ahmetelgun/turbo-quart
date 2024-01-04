@@ -1,6 +1,6 @@
 [project]
 name = "Turbo-Quart"
-version = "0.0.2.dev0"
+version = "0.0.3"
 authors = [
     { name = "Ahmet Elgün", email = "ahmetelgn@gmail.com" },
     { name = "Miguel Grinberg", email = "miguel.grinberg@gmail.com" },

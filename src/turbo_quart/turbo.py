@@ -23,9 +23,6 @@ class Turbo:
 
             @app.websocket(ws_route)
             async def turbo_stream():
-                import pdb
-
-                pdb.set_trace()
                 ws = websocket._get_current_object()
                 user_id = self.user_id_callback()
                 if user_id not in self.clients:
